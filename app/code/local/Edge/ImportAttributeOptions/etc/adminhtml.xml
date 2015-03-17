@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <menu>
+        <system>
+            <children>
+                <convert>
+                    <children>
+                        <importattributeoptions translate="title" module="importattributeoptions">
+                            <title>Attribute Values</title>
+                            <sort_order>60</sort_order>
+                            <action>adminhtml/importAttributeOptions</action>
+                        </importattributeoptions>
+                    </children>
+                </convert>
+            </children>
+        </system>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <convert>
+                                <children>
+                                    <importattributeoptions translate="title" module="importattributeoptions">
+                                        <title>Attribute Values</title>
+                                        <sort_order>60</sort_order>
+                                    </importattributeoptions>
+                                </children>
+                            </convert>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

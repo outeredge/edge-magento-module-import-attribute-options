@@ -5,4 +5,50 @@
             <version>0.0.1</version>
         </Edge_ImportAttributeOptions>
     </modules>
+ 
+    <global>
+        <blocks>
+            <importattributeoptions>
+                <class>Edge_ImportAttributeOptions_Block</class>
+            </importattributeoptions>
+        </blocks>
+        <models>
+            <importattributeoptions>
+                <class>Edge_ImportAttributeOptions_Model</class>
+            </importattributeoptions>
+        </models>
+        <helpers>
+            <importattributeoptions>
+                <class>Edge_ImportAttributeOptions_Helper</class>
+            </importattributeoptions>
+        </helpers>
+    </global>
+ 
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <importAttributeOptions before="Mage_Adminhtml">Edge_ImportAttributeOptions_Adminhtml</importAttributeOptions>
+                    </modules>
+                </args>
+            </adminhtml>
+<!--            <importattributeoptions>
+                <use>admin</use>
+                <args>
+                    <module>Edge_ImportAttributeOptions</module>
+                    <frontName>attributevalues</frontName>
+                </args>
+            </importattributeoptions>-->
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <importattributeoptions>
+                    <file>edge/importattributeoptions.xml</file>
+                </importattributeoptions>
+            </updates>
+        </layout>
+    </adminhtml>
 </config>

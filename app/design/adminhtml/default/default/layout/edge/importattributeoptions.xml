@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+    <adminhtml_importattributeoptions_index>
+        <reference name="content">
+            <block type="importattributeoptions/adminhtml_import_edit" name="importattributeoptions.form.container"></block>
+        </reference>
+    </adminhtml_importattributeoptions_index>
+</layout>
