@@ -1,0 +1,22 @@
+{
+    "name": "outeredge/edge-magento-module-importattributeoptions",
+    "type": "magento-module",
+    "description": "Bulk import attribute options from CSV by outer/edge",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "support@outeredgeuk.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "extra": {
+        "map": [
+            ["app/code/local/Edge/ImportAttributeOptions", "app/code/local/Edge/ImportAttributeOptions"],
+            ["app/etc/modules/Edge_ImportAttributeOptions.xml", "app/etc/modules/Edge_ImportAttributeOptions.xml"],
+            ["design/adminhtml/default/default/layout/edge/importattributeoptions.xml", "design/adminhtml/default/default/layout/edge/importattributeoptions.xml"]
+        ]
+    }
+}
