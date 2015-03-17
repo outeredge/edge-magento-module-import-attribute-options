@@ -33,13 +33,6 @@
                     </modules>
                 </args>
             </adminhtml>
-<!--            <importattributeoptions>
-                <use>admin</use>
-                <args>
-                    <module>Edge_ImportAttributeOptions</module>
-                    <frontName>attributevalues</frontName>
-                </args>
-            </importattributeoptions>-->
         </routers>
     </admin>
     <adminhtml>
