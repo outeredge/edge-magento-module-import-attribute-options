@@ -16,7 +16,7 @@
         "map": [
             ["app/code/local/Edge/ImportAttributeOptions", "app/code/local/Edge/ImportAttributeOptions"],
             ["app/etc/modules/Edge_ImportAttributeOptions.xml", "app/etc/modules/Edge_ImportAttributeOptions.xml"],
-            ["design/adminhtml/default/default/layout/edge/importattributeoptions.xml", "design/adminhtml/default/default/layout/edge/importattributeoptions.xml"]
+            ["app/design/adminhtml/default/default/layout/edge/importattributeoptions.xml", "app/design/adminhtml/default/default/layout/edge/importattributeoptions.xml"]
         ]
     }
 }
